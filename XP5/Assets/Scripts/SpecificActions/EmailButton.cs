@@ -1,0 +1,14 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EmailButton : MonoBehaviour
+{
+    public GameEventEmail onEmailSelected;
+    public EmailVariable email;
+
+    public void OnClick()
+    {
+        onEmailSelected.Raise(email.Value);
+    }
+}

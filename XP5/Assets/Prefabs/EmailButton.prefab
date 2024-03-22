@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1510768324916183989
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 229
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -199.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 144.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1790930922179665708, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_Name
+      value: EmailButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824123658559498857, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824123658559498857, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824123658559498857, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5855334273675706500}
+    - target: {fileID: 2824123658559498857, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824123658559498857, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824123658559498857, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: EmailButton, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824123658559498857, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1525332575834111074, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5855334273675706500}
+    - targetCorrespondingSourceObject: {fileID: 4907903160749689475, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8344113612738267892}
+    - targetCorrespondingSourceObject: {fileID: 4907903160749689475, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2451433151346903090}
+  m_SourcePrefab: {fileID: 100100000, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+--- !u!1 &134054849592885207 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1525332575834111074, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+  m_PrefabInstance: {fileID: 1510768324916183989}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5855334273675706500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134054849592885207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6ee1bab0e285044eb6c16b0fc5d17e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEmailSelected: {fileID: 11400000, guid: 7fea64eb50b4a8c4d9addfcae0153a28, type: 2}
+  email: {fileID: 11400000, guid: 655a72ac6a40cfc4084aa62f0e527f8c, type: 2}
+--- !u!114 &5603122735996538056 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6428072323747123069, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+  m_PrefabInstance: {fileID: 1510768324916183989}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5830767484475148598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5830767484475148598 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4907903160749689475, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+  m_PrefabInstance: {fileID: 1510768324916183989}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8344113612738267892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5830767484475148598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac99aa294aa1aa4fa958d825e6ac23e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tmp: {fileID: 5603122735996538056}
+  emailInfo: 0
+--- !u!114 &2451433151346903090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5830767484475148598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1501a591354af8c44a00744c245a7656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8344113612738267892}
+        m_TargetAssemblyTypeName: EmailInfoToTMP, Assembly-CSharp
+        m_MethodName: SetEmail
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 655a72ac6a40cfc4084aa62f0e527f8c, type: 2}
+          m_ObjectArgumentAssemblyTypeName: EmailVariable, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  instantiateOnAction: []
+  subAction:
+    m_PersistentCalls:
+      m_Calls: []
+  instantiateOnSubAction: []
+  destroyOnDisable: 0

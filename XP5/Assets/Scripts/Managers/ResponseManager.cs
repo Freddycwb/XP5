@@ -7,8 +7,8 @@ public class ResponseManager : MonoBehaviour
 {
     private Email _currentEmail;
 
-    private Action rightAnswer;
-    private Action wrongAnswer;
+    public Action onRightAnswer;
+    public Action onWrongAnswer;
 
     public void GetCurrentEmail(Email value)
     {
@@ -19,11 +19,17 @@ public class ResponseManager : MonoBehaviour
     {
         if (_currentEmail.canPass)
         {
-            rightAnswer.Invoke();
+            if (onRightAnswer != null)
+            {
+                onRightAnswer.Invoke();
+            }
         }
         else
         {
-            wrongAnswer.Invoke();
+            if (onWrongAnswer != null)
+            {
+                onWrongAnswer.Invoke();
+            }
         }
     }
 
@@ -31,11 +37,17 @@ public class ResponseManager : MonoBehaviour
     {
         if (!_currentEmail.canPass)
         {
-            rightAnswer.Invoke();
+            if (onRightAnswer != null)
+            {
+                onRightAnswer.Invoke();
+            }
         }
         else
         {
-            wrongAnswer.Invoke();
+            if (onWrongAnswer != null)
+            {
+                onWrongAnswer.Invoke();
+            }
         }
     }
 }

@@ -7,6 +7,11 @@ public class EmailButton : MonoBehaviour
     public GameEventEmail onEmailSelected;
     public EmailVariable email;
 
+    public void SetEmail(EmailVariable value)
+    {
+        email = value;
+    }
+
     public void OnClick()
     {
         onEmailSelected.Raise(email.Value);

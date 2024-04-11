@@ -8,8 +8,8 @@ public class GameEvent : ScriptableObject
     /// <summary>
     /// The list of listeners that this event will notify if it is raised.
     /// </summary>
-    private readonly List<InvokeAfterEvent> _eventListeners =
-        new List<InvokeAfterEvent>();
+    private readonly List<InvokeAfterGameEvent> _eventListeners =
+        new List<InvokeAfterGameEvent>();
 
     public void Raise()
     {
@@ -17,13 +17,13 @@ public class GameEvent : ScriptableObject
             _eventListeners[i].OnEventRaised();
     }
 
-    public void RegisterListener(InvokeAfterEvent listener)
+    public void RegisterListener(InvokeAfterGameEvent listener)
     {
         if (!_eventListeners.Contains(listener))
             _eventListeners.Add(listener);
     }
 
-    public void UnregisterListener(InvokeAfterEvent listener)
+    public void UnregisterListener(InvokeAfterGameEvent listener)
     {
         if (_eventListeners.Contains(listener))
             _eventListeners.Remove(listener);

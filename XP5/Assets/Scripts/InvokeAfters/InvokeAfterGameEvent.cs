@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class InvokeAfterEvent : InvokeAfter
+public class InvokeAfterGameEvent : InvokeAfter
 {
     [Tooltip("Event to register with.")]
     public GameEvent Event;
@@ -20,6 +20,9 @@ public class InvokeAfterEvent : InvokeAfter
 
     public virtual void OnEventRaised()
     {
-        CallAction();
+        if (enabled)
+        {
+            CallAction();
+        }
     }
 }

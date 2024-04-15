@@ -4,6 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
+using System;
 
 public class InvokeAfterCounter : InvokeAfter
 {
@@ -39,12 +40,24 @@ public class InvokeAfterCounter : InvokeAfter
     private float _currentValue;
     private float _minValue;
 
-    private void Start()
+    public Action onIncreaseValue;
+    public Action onDecreaseValue;
+
+    private void OnEnable()
     {
         SetMaxValue();
         SetMinValue();
-        _currentValue = _maxValue;
         SetCurrentValueVariable();
+    }
+
+    public float GetMaxValue()
+    {
+        return _maxValue;
+    }
+
+    public float GetCurrentValue()
+    {
+        return _currentValue;
     }
 
     private void SetMaxValue()
@@ -108,6 +121,14 @@ public class InvokeAfterCounter : InvokeAfter
         _currentValue = Mathf.Clamp(_currentValue + a, _minValue, _maxValue);
         SetCurrentValueVariable();
         CallSubAction();
+        if (_currentValue == _maxValue)
+        {
+            CallAction();
+        }
+        if (onIncreaseValue != null)
+        {
+            onIncreaseValue.Invoke();
+        }
     }
 
     public void DecreaseValue(float a)
@@ -118,6 +139,21 @@ public class InvokeAfterCounter : InvokeAfter
         if (_currentValue == _minValue)
         {
             CallAction();
+        }
+        if (onDecreaseValue != null)
+        {
+            onDecreaseValue.Invoke();
+        }
+    }
+
+    public void SetValue(float a)
+    {
+        float lastValue = _currentValue;
+        _currentValue = Mathf.Clamp(a, _minValue, _maxValue);
+        SetCurrentValueVariable();
+        if (lastValue != _currentValue)
+        {
+            CallSubAction();
         }
     }
 }

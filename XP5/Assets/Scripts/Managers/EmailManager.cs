@@ -18,6 +18,7 @@ public class EmailManager : MonoBehaviour
         b.GetComponentInChildren<EmailButton>().SetEmail(Emails[count]);
         b.GetComponentInChildren<EmailInfoToTMP>().SetEmail(Emails[count]);
         b.transform.SetParent(parent);
+        b.GetComponent<RectTransform>().localScale = Vector3.one;
         newEmail.Raise(Emails[count].Value);
         count++;
     }
@@ -27,6 +28,7 @@ public class EmailManager : MonoBehaviour
         GameObject b = Instantiate(btn, spawnPoint.position, spawnPoint.rotation);
         b.GetComponentInChildren<EmailButton>().SetEmail(value);
         b.GetComponentInChildren<EmailInfoToTMP>().SetEmail(value);
+        b.GetComponent<RectTransform>().localScale = Vector3.one;
         b.transform.SetParent(parent);
         newEmail.Raise(value.Value);
     }

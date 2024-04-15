@@ -182,11 +182,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 187
+      value: 190
       objectReference: {fileID: 0}
     - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
       propertyPath: m_SizeDelta.y
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19685885468992496, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -310,11 +314,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5003656793365381618, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 175
+      value: 171.5
       objectReference: {fileID: 0}
     - target: {fileID: 5003656793365381618, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 30
+      value: 29.5
       objectReference: {fileID: 0}
     - target: {fileID: 6428072323747123069, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
       propertyPath: m_text
@@ -418,11 +422,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7587233611485544064, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 195
+      value: 191
       objectReference: {fileID: 0}
     - target: {fileID: 7587233611485544064, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 7587233611485544064, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -444,9 +448,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4907903160749689475, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8344113612738267892}
-    - targetCorrespondingSourceObject: {fileID: 4907903160749689475, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2451433151346903090}
   m_SourcePrefab: {fileID: 100100000, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
 --- !u!1 &134054849592885207 stripped
 GameObject:
@@ -533,35 +534,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tmp: {fileID: 5603122735996538056}
   emailInfo: 0
---- !u!114 &2451433151346903090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5830767484475148598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1501a591354af8c44a00744c245a7656, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  action:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8344113612738267892}
-        m_TargetAssemblyTypeName: EmailInfoToTMP, Assembly-CSharp
-        m_MethodName: SetEmail
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 655a72ac6a40cfc4084aa62f0e527f8c, type: 2}
-          m_ObjectArgumentAssemblyTypeName: EmailVariable, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  instantiateOnAction: []
-  subAction:
-    m_PersistentCalls:
-      m_Calls: []
-  instantiateOnSubAction: []

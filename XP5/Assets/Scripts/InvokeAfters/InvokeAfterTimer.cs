@@ -10,7 +10,6 @@ public class InvokeAfterTimer : InvokeAfter
     [SerializeField] private FloatVariable timeToActionVariable;
     [SerializeField] private Vector2Variable randomTimeToActionVariable;
     [SerializeField] private float valueAdjuster;
-    [SerializeField] private bool desableAfterTimer = true;
     [SerializeField] private bool overrideLastTimer = true;
     [SerializeField] private bool useUnscaledTime;
 
@@ -20,6 +19,16 @@ public class InvokeAfterTimer : InvokeAfter
     [SerializeField] private float currentTimePass;
 
     private Coroutine coroutine;
+
+    public float GetCurrentTimeToAction()
+    {
+        return currentTimeToAction + valueAdjuster;
+    }
+
+    public float GetCurrentTimePass()
+    {
+        return currentTimePass;
+    }
 
     public void SetPause(bool value)
     {
@@ -65,7 +74,6 @@ public class InvokeAfterTimer : InvokeAfter
             }
         }
         CallAction();
-        enabled = !desableAfterTimer;
     }
 
     private IEnumerator Timer(float timeCount)

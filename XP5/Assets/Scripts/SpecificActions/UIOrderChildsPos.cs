@@ -41,6 +41,7 @@ public class UIOrderChildsPos : MonoBehaviour
                     child.position = new Vector3(t.position.x, t.position.y - (margin + child.rect.height) * count, t.position.z);
                     break;
             }
+            child.localScale = Vector3.one;
         }
     }
 }

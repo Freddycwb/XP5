@@ -20,7 +20,7 @@ public enum EmailInfos
 public class EmailVariable : Variable<Email>
 {
     public string name;
-    public string content;
+    [Multiline] public string content;
     public bool canPass;
 
     private void OnEnable()

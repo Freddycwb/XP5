@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
+  m_Name: TestEmailOfficial
+  m_EditorClassIdentifier: 
+  DeveloperDescription: 
+  PersistBetweenScenes: 0
+  name: Froddo
+  content: "Assunto: Importante: Acesso \xE0 Sua Conta Banc\xE1ria\nPrezado cliente,\nRecentimente
+    detectamos atividades suspeitahs em sua conta banc\xE1ria. Para garantirmos a
+    seguran\xE7a dos seus fundos e protegermos suas informa\xE7\xF5es pessoais, solicitamos
+    sua aten\xE7\xE3o imediata.\nPor favor, siga as instru\xE7\xF5es abaixo para
+    realizar a verifica\xE7\xE3o da sua conta:\nAcesse este link para fazer o login
+    na sua conta: http://www.segurobanco.com.br/verifica\xE7\xE3o\nInsira suas credenciais
+    de acesso, incluindo nome de usu\xE1rio e senha.\nConclua o processo de verifica\xE7\xE3o
+    para evitar qualquer uso n\xE3o autorizado da sua conta.\nSe voc\xEA j\xE1 tomou
+    estas medidas recentemente, desconsidere este e-mail.\nSe tiver alguma d\xFAvida
+    ou preocupa\xE7\xE3o, entre em contato com nosso suporte ao cliente imediatamente.\nAgradecemos
+    sua coopera\xE7\xE3o e compreens\xE3o.\nAtenciosamente, Equipe de Suporte SeguroBanco\n\nNeste
+    exemplo, os erros ortogr\xE1ficos incluem \"recentimente\" com erro de ortografia,
+    \"suspeitahs\" com a letra \"h\" extra, e \"verifica\xE7\xE3o\" com acento circunflexo\_incorreto."
+  canPass: 0

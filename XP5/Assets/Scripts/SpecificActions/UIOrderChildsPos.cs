@@ -12,12 +12,15 @@ public class UIOrderChildsPos : MonoBehaviour
     [SerializeField] private Axis axis;
     [SerializeField] private float margin;
     [SerializeField] private bool invert;
+    [SerializeField] private GameObjectVariable canvas;
+    private RectTransform canvasObj;
 
     private RectTransform t;
 
     private void Start()
     {
         t = GetComponent<RectTransform>();
+        canvasObj = canvas.Value.GetComponent<RectTransform>();
     }
 
     public void OrganizeChilds()
@@ -29,16 +32,16 @@ public class UIOrderChildsPos : MonoBehaviour
             switch (axis)
             {
                 case Axis.x:
-                    child.position = new Vector3(t.position.x + (margin + child.rect.width) * count, t.position.y, t.position.z);
+                    child.position = new Vector3(t.position.x + (margin + child.rect.width) * count * canvasObj.localScale.x, t.position.y, t.position.z);
                     break;
                 case Axis.y:
-                    child.position = new Vector3(t.position.x, t.position.y + (margin + child.rect.height) * count, t.position.z);
+                    child.position = new Vector3(t.position.x, t.position.y + (margin + child.rect.height) * count * canvasObj.localScale.x, t.position.z);
                     break;
                 case Axis.minusX:
-                    child.position = new Vector3(t.position.x - (margin + child.rect.width) * count, t.position.y, t.position.z);
+                    child.position = new Vector3(t.position.x - (margin + child.rect.width) * count * canvasObj.localScale.x, t.position.y, t.position.z);
                     break;
                 case Axis.minusY:
-                    child.position = new Vector3(t.position.x, t.position.y - (margin + child.rect.height) * count, t.position.z);
+                    child.position = new Vector3(t.position.x, t.position.y - (margin + child.rect.height) * count * canvasObj.localScale.x, t.position.z);
                     break;
             }
             child.localScale = Vector3.one;

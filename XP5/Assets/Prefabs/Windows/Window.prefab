@@ -144,7 +144,9 @@ MonoBehaviour:
   clips:
   - {fileID: 8300000, guid: 1593e7bf23b21bd49a15e1f5ac5ebd59, type: 3}
   volume: 1
+  volumeVariable: {fileID: 11400000, guid: c237accb17451bc43a0d611e6bbeea32, type: 2}
   minMaxPitch: {x: 0.9, y: 1.1}
+  loop: 0
   delayToLowVolume: 0
   volumeTransitionSpeed: 1
 --- !u!1 &2745468158839011521
@@ -247,7 +249,9 @@ MonoBehaviour:
   clips:
   - {fileID: 8300000, guid: 7622b2eedc8b68347a8d71787787e8cf, type: 3}
   volume: 1
+  volumeVariable: {fileID: 11400000, guid: 7d48397715f2d9e4399ac3da687e7889, type: 2}
   minMaxPitch: {x: 0.9, y: 1.1}
+  loop: 0
   delayToLowVolume: 0
   volumeTransitionSpeed: 1
 --- !u!1 &3733400055311329788
@@ -436,7 +440,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3feed998cd3ba8649a15f74e46e2c943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraObj: {fileID: 11400000, guid: 1685dcc4105396b418e2d1f2205bfdd9, type: 2}
 --- !u!1001 &1378284770691023344
 PrefabInstance:
   m_ObjectHideFlags: 0

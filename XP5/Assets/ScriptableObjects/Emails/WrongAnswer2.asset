@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
+  m_Name: WrongAnswer2
+  m_EditorClassIdentifier: 
+  DeveloperDescription: 
+  PersistBetweenScenes: 0
+  name: 
+  content: "Ol\xE1 funcion\xE1rio.\n\nPrimeiramente, bem vindo a empresa.\n\nPreciso
+    que verifique esses e-mails que nosso sistema de seguran\xE7a da empresa encontrou.\n\nSe
+    n\xE3o encontrar nada de errado, \xE9 s\xF3 mandar enviar para a caixa de entrada,
+    e o destinat\xE1rio ir\xE1 receber.\n\nCaso encontre alguma coisa que n\xE3o
+    parece ser seguro, envie para a caixa de spam, e vamos analisar com mais cuidado.\n\nEspero
+    que tenha um bom dia\_de\_trabalho."
+  canPass: 0

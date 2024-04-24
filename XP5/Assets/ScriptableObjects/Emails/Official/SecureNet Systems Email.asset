@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
+  m_Name: SecureNet Systems Email
+  m_EditorClassIdentifier: 
+  DeveloperDescription: 
+  PersistBetweenScenes: 0
+  name: SecureNet Systems
+  content: "Assunto: Aten\xE7\xE3o: Verifica\xE7\xE3o de Seguran\xE7a Necess\xE1ria
+    Para Sua Conta\nCaro cliente,\nHouve relat\xF3rios de atividades an\xF4malas
+    em sua conta recentemente. Para protegermos a seguran\xE7a dos seus fundos e
+    evitar qualquer acesso n\xE3o autorisado, solicitamos sua a\xE7\xE3o imediata.\nPor
+    favor, siga as etapas abaixo para completar a verificas\xE3o da sua conta:\nAcesse
+    este link para entrar na sua conta: http://www.segurabanco.com.br/verificacao\nInsira
+    suas credenciais de acesso, incluindo seu nome de usu\xE1rio e senha.\nConclua
+    o processo de verifica\xE7\xE3o para garantir a seguran\xE7a adicional da sua
+    conta.\nSe voc\xEA j\xE1 tomou essas medidas recentemente, por favor, desconsidere
+    esta mensagem.\nEm caso de d\xFAvidas ou preocupa\xE7\xF5es, entre em contato
+    com o nosso suporte ao cliente.\nAgradecemos sua colabora\xE7\xE3o e compreens\xE3o.\nAtenciosamente,
+    Equipe de Suporte SeguraBanco"
+  canPass: 0

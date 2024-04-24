@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
+  m_Name: SupportSavvy Email
+  m_EditorClassIdentifier: 
+  DeveloperDescription: 
+  PersistBetweenScenes: 0
+  name: SupportSavvy
+  content: "Assunto: Notifica\xE7\xE3o Importante: Seguran\xE7a da Sua Conta em Risco\nPrezado
+    cliente,\nDetectamos atividades suspeitahs em sua conta banc\xE1ria recentemente.
+    Para garantir a seguran\xE7a dos seus fundos e informa\xE7\xF5es pessoais, pedimos
+    que voc\xEA tome a\xE7\xF5es imediatas.\nPor favor, siga as instru\xE7\xF5es
+    abaixo para proteger sua conta:\nAcesse este linque para fazer o logue na sua
+    conta: http://www.seguranca-banco.com.br/verificacao\nInsira suas cred\xEAnciais
+    de acesso, incluindo nome de usu\xE1rio e senha.\nConclua o processo de verificas\xE3o
+    para evitar qualquer uso n\xE3o autorizado da sua conta.\nSe voc\xEA j\xE1 tomou
+    essas medidas recentemente, desconsidere este e-mail.\nEm caso de d\xFAvidas
+    ou preocupa\xE7\xF5es, entre em contato com o nossos suporte ao cliente imediatamente.\nAgradecemos
+    sua coopera\xE7\xE3o e compreens\xE3o.\nAtenciosamente, Equipe de Suporte Seguran\xE7a
+    Banc\xE1ria"
+  canPass: 0

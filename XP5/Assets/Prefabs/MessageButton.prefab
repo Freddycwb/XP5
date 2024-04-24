@@ -104,6 +104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MessageButton
       objectReference: {fileID: 0}
+    - target: {fileID: 1790930922179665708, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1869670424112496629, guid: fb104fda8952fd54385cb5073a294be2, type: 3}
       propertyPath: m_Color.a
       value: 0

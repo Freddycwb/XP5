@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
+  m_Name: ByteWorks Solutions Email
+  m_EditorClassIdentifier: 
+  DeveloperDescription: 
+  PersistBetweenScenes: 0
+  name: ByteWorks Solutions
+  content: "Assunto: Atualiza\xE7\xE3o de Seguran\xE7a Urgente - A\xE7\xE3o Necess\xE1ria\nPrezado
+    Cliente,\nEstamos entrando em contato para informar que detectamos uma atividade
+    incomum em sua conta de e-mail. Por motivos de seguran\xE7a, \xE9 imperativo
+    que voc\xEA atualize imediatamente suas credenciais de login.\nPor favor, clique
+    no link abaixo para acessar a p\xE1gina de atualiza\xE7\xE3o de seguran\xE7a:\nhttp://www.banca-segura.com.br/ativa\xE7\xE3o\nPedimos
+    que realize essa atualiza\xE7\xE3o o mais r\xE1pido poss\xEDvel para garantir
+    a seguran\xE7a de sua conta e evitar poss\xEDveis acessos n\xE3o autorizados.\nCaso
+    tenha alguma d\xFAvida ou precise de assist\xEAncia, entre em contato conosco
+    imediatamente.\nAtenciosamente, Rogerio Equipe de\_Suporte\_T\xE9cnico"
+  canPass: 0

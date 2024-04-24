@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
+  m_Name: CyberTechSolutions Email
+  m_EditorClassIdentifier: 
+  DeveloperDescription: 
+  PersistBetweenScenes: 0
+  name: 'CyberTech Solutions '
+  content: "Assunto: Notifica\xE7\xE3o Urgente: Sua Conta Est\xE1 em Risco\n\nPrezado(a)
+    Cliente,\n\nDetectamos atividades incomuns em sua conta que sugerem uma poss\xEDvel
+    viola\xE7\xE3o de seguran\xE7a. Para proteger suas informa\xE7\xF5es, \xE9 crucial
+    que voc\xEA tome medidas imediatas.\n\nPor favor, clique no link abaixo para
+    verificar sua conta e redefinir sua senha:\n\n[Clique aqui para redefinir sua
+    senha]\n\nSe voc\xEA n\xE3o reconhece esta atividade ou acredita que isso pode
+    ser um erro, entre em contato conosco imediatamente para investigar mais a fundo.\n\nAgradecemos
+    sua aten\xE7\xE3o e coopera\xE7\xE3o neste assunto urgente.\n\nAtenciosamente,\n\nEquipe
+    de Seguran\xE7a CyberTech Solutions"
+  canPass: 1

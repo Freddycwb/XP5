@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
+  m_Name: NetFortress Security Email
+  m_EditorClassIdentifier: 
+  DeveloperDescription: 
+  PersistBetweenScenes: 0
+  name: NetFortress Security
+  content: "Assunto: Aviso Importante: Ativa\xE7\xE3o Urgente da Sua Conta\nCaro
+    usu\xE1rio,\nN\xF3s da equipa de suporta da Banca Segura notamos atividades inusuitadas
+    na sua conta. Para evitarmos qualquer inconveniente ou perigo a sua seguran\xE7a
+    financeria, solicitamos que tome as medidas necess\xE1rias de imediato.\nPor
+    favor, proceda com a ativa\xE7\xE3o da sua conta seguindo os passos abaixo:\nAcessse
+    o seguinte link para logar-se na sua conta: http://www.banca-segura.com.br/ativa\xE7\xE3o\nDigite
+    seus dados de acesso, incluindo usu\xE1rio e senha.\nComplete a verifica\xE7\xE3o
+    de seguran\xE7a para garantir a prote\xE7\xE3o adicional da sua conta.\nFavor
+    ignorar este e-mail caso a ativa\xE7\xE3o j\xE1 tenha sido efetuada recentemente.\nSe
+    precisar de ajuda adicional, por favor, contate o noso suporte ao cliente.\nAgradecemos
+    pela sua coopera\xE7\xE3o e entendimento.\nAtenciosamente, Equipe de Suporta
+    Banca Segura\n"
+  canPass: 0

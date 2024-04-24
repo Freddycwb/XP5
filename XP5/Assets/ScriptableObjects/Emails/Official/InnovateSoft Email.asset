@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
+  m_Name: InnovateSoft Email
+  m_EditorClassIdentifier: 
+  DeveloperDescription: 
+  PersistBetweenScenes: 0
+  name: InnovateSoft
+  content: "Assuntu: Promoss\xE3o Ecsclusiva: Ganh seu Pr\xEAmio Espec\xEDal!\n\nCaru
+    Cliemte Valuruso,\n\nParab\xE9n! Voc\xEA foi escohido pah uma promoss\xE3o ecspecial
+    em nossa loja onlaine. Pah resgatah seu pr\xEAmio ecsclusivo, por favoh cliqe
+    no link abaixo e siga as instru\xE7\xF5is:\n\n[Resgatah Pr\xEAmio Agora]\n\nN\xE3o
+    perc\xE1 essa oportunit\xE1 unicah!\n\nAtensiosamemte, Iquipe\_de\_Promoss\xF5es"
+  canPass: 0

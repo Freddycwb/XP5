@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
+  m_Name: CodeCrafters Inc. Email
+  m_EditorClassIdentifier: 
+  DeveloperDescription: 
+  PersistBetweenScenes: 0
+  name: CodeCrafters Inc.
+  content: "Ol\xE1 Cliente,\nComo parte do nosso compromisso cont\xEDnuo com a seguran\xE7a,
+    estamos realizando uma atualiza\xE7\xE3o em nosso sistema para garantir que sua
+    conta permane\xE7a segura. Para continuar utilizando nossos servi\xE7os sem interrup\xE7\xF5es,
+    precisamos que voc\xEA atualize suas informa\xE7\xF5es de conta.\nPor favor,
+    clique no link abaixo para acessar sua conta e preencher o formul\xE1rio de atualiza\xE7\xE3o:\nhttp://www.seguranca-banco.com.br/verificacao\nAp\xF3s
+    preencher o formul\xE1rio, sua conta ser\xE1 automaticamente atualizada e voc\xEA
+    poder\xE1 continuar utilizando nossos servi\xE7os normalmente. Se voc\xEA n\xE3o
+    atualizar suas informa\xE7\xF5es, sua conta pode ser temporariamente bloqueada
+    por motivos de seguran\xE7a.\nSe tiver alguma d\xFAvida, entre em contato com
+    nosso suporte ao cliente pelo e-mail rafael.sousa@example.com\n ou pelo telefone
+    99387-7379.\nObrigado pela sua compreens\xE3o.\nAtenciosamente,\nEquipe de Seguran\xE7a
+    CodeCrafters Inc."
+  canPass: 0

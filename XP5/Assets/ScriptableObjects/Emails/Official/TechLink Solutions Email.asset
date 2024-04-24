@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
-  m_Name: TestEmailOfficial
+  m_Name: TechLink Solutions Email
   m_EditorClassIdentifier: 
   DeveloperDescription: 
   PersistBetweenScenes: 0
-  name: Froddo
+  name: TechLink Solutions
   content: "Assunto: Importante: Acesso \xE0 Sua Conta Banc\xE1ria\nPrezado cliente,\nRecentimente
     detectamos atividades suspeitahs em sua conta banc\xE1ria. Para garantirmos a
     seguran\xE7a dos seus fundos e protegermos suas informa\xE7\xF5es pessoais, solicitamos
@@ -25,7 +25,5 @@ MonoBehaviour:
     para evitar qualquer uso n\xE3o autorizado da sua conta.\nSe voc\xEA j\xE1 tomou
     estas medidas recentemente, desconsidere este e-mail.\nSe tiver alguma d\xFAvida
     ou preocupa\xE7\xE3o, entre em contato com nosso suporte ao cliente imediatamente.\nAgradecemos
-    sua coopera\xE7\xE3o e compreens\xE3o.\nAtenciosamente, Equipe de Suporte SeguroBanco\n\nNeste
-    exemplo, os erros ortogr\xE1ficos incluem \"recentimente\" com erro de ortografia,
-    \"suspeitahs\" com a letra \"h\" extra, e \"verifica\xE7\xE3o\" com acento circunflexo\_incorreto."
+    sua coopera\xE7\xE3o e compreens\xE3o.\nAtenciosamente, Equipe de Suporte SeguroBanco"
   canPass: 0

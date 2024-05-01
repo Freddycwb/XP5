@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MatchTime
   m_EditorClassIdentifier: 
   DeveloperDescription: 
-  Value: 180
+  Value: 150
   PersistBetweenScenes: 0

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: HackDuration
   m_EditorClassIdentifier: 
   DeveloperDescription: 
-  Value: {x: 0, y: 0}
+  Value: {x: 3, y: 5}
   PersistBetweenScenes: 0

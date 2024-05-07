@@ -15,6 +15,7 @@ public class InvokeAfterTimer : InvokeAfter
 
     [SerializeField] private float currentTimeToAction;
     [SerializeField] private bool isPaused;
+    private bool _justSetTime;
 
     [SerializeField] private float currentTimePass;
 
@@ -50,12 +51,12 @@ public class InvokeAfterTimer : InvokeAfter
 
     private IEnumerator InvokeAfterSeconds()
     {
-        if (randomTimeToActionVariable != null && randomTimeToActionVariable.Value != Vector2.zero)
+        if (randomTimeToActionVariable != null && randomTimeToActionVariable.Value != Vector2.zero && !_justSetTime)
         {
             currentTimeToAction = Random.Range(randomTimeToActionVariable.Value.x, randomTimeToActionVariable.Value.y);
             yield return Timer(currentTimeToAction);
         }
-        else if (timeToActionVariable != null && timeToActionVariable.Value > 0)
+        else if (timeToActionVariable != null && timeToActionVariable.Value > 0 && !_justSetTime)
         {
             currentTimeToAction = timeToActionVariable.Value;
             yield return Timer(currentTimeToAction);
@@ -65,6 +66,10 @@ public class InvokeAfterTimer : InvokeAfter
             if (maxTimeToActionOPTIONAL <= 0)
             {
                 currentTimeToAction = timeToAction;
+                if (_justSetTime)
+                {
+                    _justSetTime = false;
+                }
                 yield return Timer(currentTimeToAction);
             }
             else
@@ -100,6 +105,7 @@ public class InvokeAfterTimer : InvokeAfter
     public void SetTimeToAction(float time)
     {
         timeToAction = time;
+        _justSetTime = true;
         coroutine = StartCoroutine(InvokeAfterSeconds());
     }
 
@@ -108,6 +114,7 @@ public class InvokeAfterTimer : InvokeAfter
         if (coroutine != null)
         {
             float newTime = 0;
+            Debug.Log(currentTimePass - value);
             if (0 < currentTimePass - value)
             {
                 newTime = currentTimePass - value;

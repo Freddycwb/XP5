@@ -5,6 +5,7 @@ using UnityEngine;
 public struct Email
 {
     public string name;
+    public string header;
     public string content;
     public bool canPass;
 }
@@ -12,6 +13,7 @@ public struct Email
 public enum EmailInfos
 {
     name,
+    header,
     content,
     canPass
 }
@@ -20,12 +22,14 @@ public enum EmailInfos
 public class EmailVariable : Variable<Email>
 {
     public string name;
+    [Multiline] public string header;
     [Multiline] public string content;
     public bool canPass;
 
     private void OnEnable()
     {
         Value.name = name;
+        Value.name = header;
         Value.content = content;
         Value.canPass = canPass;
     }

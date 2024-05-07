@@ -15,6 +15,7 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: NetFortress Security
+  header: teste
   content: "Assunto: Aviso Importante: Ativa\xE7\xE3o Urgente da Sua Conta\nCaro
     usu\xE1rio,\nN\xF3s da equipa de suporta da Banca Segura notamos atividades inusuitadas
     na sua conta. Para evitarmos qualquer inconveniente ou perigo a sua seguran\xE7a

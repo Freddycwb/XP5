@@ -25,6 +25,9 @@ public class EmailInfoToTMP : MonoBehaviour
             case EmailInfos.name:
                 tmp.text = value.name;
                 break;
+            case EmailInfos.header:
+                tmp.text = value.header;
+                break;
             case EmailInfos.content:
                 tmp.text = value.content;
                 break;

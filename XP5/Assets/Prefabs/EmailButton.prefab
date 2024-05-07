@@ -533,4 +533,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tmp: {fileID: 5603122735996538056}
-  emailInfo: 0
+  emailInfo: 1

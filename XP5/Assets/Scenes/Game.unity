@@ -3101,7 +3101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: {fileID: 711064526}
   emailsList: {fileID: 214577148}
-  time: 0.645
+  time: 2.5
 --- !u!1 &766069468
 GameObject:
   m_ObjectHideFlags: 0

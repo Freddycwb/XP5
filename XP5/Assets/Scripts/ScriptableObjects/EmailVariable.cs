@@ -29,7 +29,7 @@ public class EmailVariable : Variable<Email>
     private void OnEnable()
     {
         Value.name = name;
-        Value.name = header;
+        Value.header = header;
         Value.content = content;
         Value.canPass = canPass;
     }

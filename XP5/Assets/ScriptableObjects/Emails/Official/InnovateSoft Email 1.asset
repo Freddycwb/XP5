@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
+  m_Name: InnovateSoft Email 1
+  m_EditorClassIdentifier: 
+  DeveloperDescription: 
+  PersistBetweenScenes: 0
+  name: InnovateSoft
+  header: 'De: fernanda.almeida@innovatesoft.com
+
+    Assunto: Folha de pagamento'
+  content: "Prezado(a) [Nome], \r  \r\n\r\nEspero que esteja tudo bem com voc\xEA.
+    \r  \r\n\r\nPor meio deste e-mail, estou enviando a folha de pagamento referente
+    ao m\xEAs de junho de 2024 como anexo. Por favor, verifique o arquivo PDF anexado
+    para revis\xE3o e quaisquer esclarecimentos necess\xE1rios. \r  \r\n\r\nSe precisar
+    de assist\xEAncia adicional ou tiver alguma d\xFAvida sobre os detalhes contidos
+    no documento, sinta-se \xE0 vontade para me contatar. \r  \r\n\r\nAtenciosamente,
+    \r  \r\n\r\n(Nome) \r  \r\n\r\nFolha de Pagamento de Junho de 2024 - Anexo "
+  canPass: 1

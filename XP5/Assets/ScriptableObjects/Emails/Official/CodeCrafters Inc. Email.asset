@@ -15,17 +15,10 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: CodeCrafters Inc.
-  header: teste
-  content: "Ol\xE1 Cliente,\nComo parte do nosso compromisso cont\xEDnuo com a seguran\xE7a,
-    estamos realizando uma atualiza\xE7\xE3o em nosso sistema para garantir que sua
-    conta permane\xE7a segura. Para continuar utilizando nossos servi\xE7os sem interrup\xE7\xF5es,
-    precisamos que voc\xEA atualize suas informa\xE7\xF5es de conta.\nPor favor,
-    clique no link abaixo para acessar sua conta e preencher o formul\xE1rio de atualiza\xE7\xE3o:\nhttp://www.seguranca-banco.com.br/verificacao\nAp\xF3s
-    preencher o formul\xE1rio, sua conta ser\xE1 automaticamente atualizada e voc\xEA
-    poder\xE1 continuar utilizando nossos servi\xE7os normalmente. Se voc\xEA n\xE3o
-    atualizar suas informa\xE7\xF5es, sua conta pode ser temporariamente bloqueada
-    por motivos de seguran\xE7a.\nSe tiver alguma d\xFAvida, entre em contato com
-    nosso suporte ao cliente pelo e-mail rafael.sousa@example.com\n ou pelo telefone
-    99387-7379.\nObrigado pela sua compreens\xE3o.\nAtenciosamente,\nEquipe de Seguran\xE7a
-    CodeCrafters Inc."
-  canPass: 0
+  header: "De: Alexandre.oliveira@codecrafters.com\nAssunto: Mensagens n\xE3o lidas"
+  content: "Sauda\xE7\xF5es, (Nome), \r\n  \nParece que h\xE1 alguns e-mails n\xE3o
+    lidos aguardando sua aten\xE7\xE3o. \r\n  \r\nPara garantir que voc\xEA n\xE3o
+    perca nada importante, sugerimos verificar sua caixa de entrada utilizando o
+    filtro de mensagens n\xE3o lidas. \r  \r\n\nEsperamos que isso seja \xFAtil.
+    \r  \r\n\r\nAtenciosamente, \r\n\r\nXXXX. "
+  canPass: 1

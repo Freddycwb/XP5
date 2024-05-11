@@ -15,17 +15,12 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: NetFortress Security
-  header: teste
-  content: "Assunto: Aviso Importante: Ativa\xE7\xE3o Urgente da Sua Conta\nCaro
-    usu\xE1rio,\nN\xF3s da equipa de suporta da Banca Segura notamos atividades inusuitadas
-    na sua conta. Para evitarmos qualquer inconveniente ou perigo a sua seguran\xE7a
-    financeria, solicitamos que tome as medidas necess\xE1rias de imediato.\nPor
-    favor, proceda com a ativa\xE7\xE3o da sua conta seguindo os passos abaixo:\nAcessse
-    o seguinte link para logar-se na sua conta: http://www.banca-segura.com.br/ativa\xE7\xE3o\nDigite
-    seus dados de acesso, incluindo usu\xE1rio e senha.\nComplete a verifica\xE7\xE3o
-    de seguran\xE7a para garantir a prote\xE7\xE3o adicional da sua conta.\nFavor
-    ignorar este e-mail caso a ativa\xE7\xE3o j\xE1 tenha sido efetuada recentemente.\nSe
-    precisar de ajuda adicional, por favor, contate o noso suporte ao cliente.\nAgradecemos
-    pela sua coopera\xE7\xE3o e entendimento.\nAtenciosamente, Equipe de Suporta
-    Banca Segura\n"
+  header: "De: gustavo.ferreira@netfortress.com\nAssunto: Promo\xE7\xE3o imperd\xEDvel"
+  content: "Ol\xE1, estimado cliente, \r  \r\n\r\nEstamos empolgados em informar
+    sobre nossa grande promo\xE7\xE3o de liquida\xE7\xE3o, com descontos de at\xE9
+    70%. \r  \r\n\r\nN\xE3o deixe de aproveitar para adquirir o novo TechPad Maxx
+    2024 256GB ou quem sabe uma Geladeira FrostFree ChillZone. \r  \r\n\r\nQueremos
+    proporcionar os melhores neg\xF3cios para nossos clientes, ent\xE3o n\xE3o perca
+    tempo e confira mais ofertas em nosso site. \r  \r\n\r\nTenha uma excelente semana,
+    \r  \r\n\r\nTechMart \r  \r\n\r\n[www.techmart.com/promo\xE7\xF5es](http://www.techmart.com/promo\xE7\xF5es) "
   canPass: 0

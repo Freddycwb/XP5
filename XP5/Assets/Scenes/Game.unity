@@ -7396,6 +7396,14 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0.46666664
       objectReference: {fileID: 0}
+    - target: {fileID: 3083461886167736206, guid: 28521c944d053f64eb6ef26c06b3f5cb, type: 3}
+      propertyPath: m_fontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083461886167736206, guid: 28521c944d053f64eb6ef26c06b3f5cb, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 5163563691732922401, guid: 28521c944d053f64eb6ef26c06b3f5cb, type: 3}
       propertyPath: emailInfo
       value: 2
@@ -7494,7 +7502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869337670160744669, guid: 28521c944d053f64eb6ef26c06b3f5cb, type: 3}
       propertyPath: emailInfo
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

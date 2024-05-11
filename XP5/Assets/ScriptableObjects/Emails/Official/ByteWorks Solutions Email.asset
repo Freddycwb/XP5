@@ -15,14 +15,13 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: ByteWorks Solutions
-  header: teste
-  content: "Assunto: Atualiza\xE7\xE3o de Seguran\xE7a Urgente - A\xE7\xE3o Necess\xE1ria\nPrezado
-    Cliente,\nEstamos entrando em contato para informar que detectamos uma atividade
-    incomum em sua conta de e-mail. Por motivos de seguran\xE7a, \xE9 imperativo
-    que voc\xEA atualize imediatamente suas credenciais de login.\nPor favor, clique
-    no link abaixo para acessar a p\xE1gina de atualiza\xE7\xE3o de seguran\xE7a:\nhttp://www.banca-segura.com.br/ativa\xE7\xE3o\nPedimos
-    que realize essa atualiza\xE7\xE3o o mais r\xE1pido poss\xEDvel para garantir
-    a seguran\xE7a de sua conta e evitar poss\xEDveis acessos n\xE3o autorizados.\nCaso
-    tenha alguma d\xFAvida ou precise de assist\xEAncia, entre em contato conosco
-    imediatamente.\nAtenciosamente, Rogerio Equipe de\_Suporte\_T\xE9cnico"
+  header: 'De: ricardo.silva@byteworks.com
+
+    Assunto: Troca de senha'
+  content: "Sauda\xE7\xF5es, (Nome do Usu\xE1rio), \r\n\r  \r\nObservamos uma modifica\xE7\xE3o
+    em suas credenciais de entrada na plataforma XXXX. \r\n\r  \r\nSe n\xE3o houve
+    uma a\xE7\xE3o de sua parte, pedimos que entre em comunica\xE7\xE3o conosco para
+    assegurar a integridade de sua conta. Consulte nossa se\xE7\xE3o de suporte para
+    orienta\xE7\xF5es adicionais. \r\n  \r\nAtenciosamente, \r\n\r\nEquipe de Suporte
+    XXXX "
   canPass: 0

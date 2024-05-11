@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
+  m_Name: CyberTechSolutions Email 1
+  m_EditorClassIdentifier: 
+  DeveloperDescription: 
+  PersistBetweenScenes: 0
+  name: TitanTech Enterprises
+  header: 'De: mariana.lima@titantech.com
+
+    Assunto: Treinamentos incompletos'
+  content: "Sauda\xE7\xF5es, (Nome) \r  \r\n\r\nGostar\xEDamos de chamar sua aten\xE7\xE3o
+    para o fato de que alguns dos treinamentos na plataforma XXXX ainda n\xE3o foram
+    conclu\xEDdos por voc\xEA. \r  \r\n\r\nPara manter-se atualizado com as pol\xEDticas
+    e procedimentos do seu ambiente de trabalho, \xE9 essencial que voc\xEA acesse
+    os Treinamentos dispon\xEDveis aqui. \r  \r\n\r\nPor favor, lembre-se de que
+    a conclus\xE3o dessas tarefas \xE9 obrigat\xF3ria e a falta delas pode acarretar
+    em medidas disciplinares. \r  \r\n\r\nTenha um dia produtivo, \r\n\r\nXXXX "
+  canPass: 1

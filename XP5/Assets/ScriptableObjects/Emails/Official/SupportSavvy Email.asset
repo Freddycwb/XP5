@@ -15,7 +15,7 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: SupportSavvy
-  header: teste
+  header: "De: \nAssunto:"
   content: "Assunto: Notifica\xE7\xE3o Importante: Seguran\xE7a da Sua Conta em Risco\nPrezado
     cliente,\nDetectamos atividades suspeitahs em sua conta banc\xE1ria recentemente.
     Para garantir a seguran\xE7a dos seus fundos e informa\xE7\xF5es pessoais, pedimos

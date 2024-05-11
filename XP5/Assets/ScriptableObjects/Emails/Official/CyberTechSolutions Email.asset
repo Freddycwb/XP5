@@ -15,14 +15,14 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: 'CyberTech Solutions '
-  header: teste
-  content: "Assunto: Notifica\xE7\xE3o Urgente: Sua Conta Est\xE1 em Risco\n\nPrezado(a)
-    Cliente,\n\nDetectamos atividades incomuns em sua conta que sugerem uma poss\xEDvel
-    viola\xE7\xE3o de seguran\xE7a. Para proteger suas informa\xE7\xF5es, \xE9 crucial
-    que voc\xEA tome medidas imediatas.\n\nPor favor, clique no link abaixo para
-    verificar sua conta e redefinir sua senha:\n\n[Clique aqui para redefinir sua
-    senha]\n\nSe voc\xEA n\xE3o reconhece esta atividade ou acredita que isso pode
-    ser um erro, entre em contato conosco imediatamente para investigar mais a fundo.\n\nAgradecemos
-    sua aten\xE7\xE3o e coopera\xE7\xE3o neste assunto urgente.\n\nAtenciosamente,\n\nEquipe
-    de Seguran\xE7a CyberTech Solutions"
-  canPass: 1
+  header: 'De: marcelo.costa@cybertech.com
+
+    Assunto: Treinamentos incompletos'
+  content: "Boa Tarde, (Nome) \r  \r\n\r\nPercebemos que voc\xEA ainda n\xE3o finalizou
+    alguns dos treinamentos dispon\xEDveis na plataforma XXXX. \r\n\r\nPara garantir
+    que voc\xEA esteja totalmente atualizado com as normas e procedimentos do seu
+    ambiente de trabalho, recomendamos que acesse os Treinamentos aqui. \r\n\r\nLembre-se
+    de que \xE9 obrigat\xF3rio concluir essas atividades e a falta delas pode resultar
+    em advert\xEAncias ou suspens\xF5es. \r\n\r\nTenha um excelente dia de trabalho,
+    \r\n\r \nXXXX "
+  canPass: 0

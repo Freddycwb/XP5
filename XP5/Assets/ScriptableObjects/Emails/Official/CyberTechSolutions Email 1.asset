@@ -15,14 +15,17 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: TitanTech Enterprises
-  header: 'De: mariana.lima@titantech.com
+  header: 'De: mariana.lima@gmail.com
 
-    Assunto: Treinamentos incompletos'
-  content: "Sauda\xE7\xF5es, (Nome) \r  \r\n\r\nGostar\xEDamos de chamar sua aten\xE7\xE3o
+    Assunto: Treinamentos incompletos
+
+    Para:
+    vanessa.barbosa@hotmail.com'
+  content: "Sauda\xE7\xF5es, Vanessa,\r\n  \r\nGostar\xEDamos de chamar sua aten\xE7\xE3o
     para o fato de que alguns dos treinamentos na plataforma XXXX ainda n\xE3o foram
-    conclu\xEDdos por voc\xEA. \r  \r\n\r\nPara manter-se atualizado com as pol\xEDticas
+    conclu\xEDdos por voc\xEA. \r\n  \r\nPara manter-se atualizado com as pol\xEDticas
     e procedimentos do seu ambiente de trabalho, \xE9 essencial que voc\xEA acesse
-    os Treinamentos dispon\xEDveis aqui. \r  \r\n\r\nPor favor, lembre-se de que
-    a conclus\xE3o dessas tarefas \xE9 obrigat\xF3ria e a falta delas pode acarretar
-    em medidas disciplinares. \r  \r\n\r\nTenha um dia produtivo, \r\n\r\nXXXX "
+    os Treinamentos dispon\xEDveis aqui. \r\n \r\nPor favor, lembre-se de que a conclus\xE3o
+    dessas tarefas \xE9 obrigat\xF3ria e a falta delas pode acarretar em medidas
+    disciplinares. \r\n  \r\nTenha um dia produtivo, \r\n\r\nTitanTech Enterprises"
   canPass: 1

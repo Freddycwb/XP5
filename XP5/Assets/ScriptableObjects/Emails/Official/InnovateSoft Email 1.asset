@@ -15,14 +15,17 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: InnovateSoft
-  header: 'De: fernanda.almeida@innovatesoft.com
+  header: 'De: fernanda.almeida@gmail.com
 
-    Assunto: Folha de pagamento'
-  content: "Prezado(a) [Nome], \r  \r\n\r\nEspero que esteja tudo bem com voc\xEA.
-    \r  \r\n\r\nPor meio deste e-mail, estou enviando a folha de pagamento referente
-    ao m\xEAs de junho de 2024 como anexo. Por favor, verifique o arquivo PDF anexado
-    para revis\xE3o e quaisquer esclarecimentos necess\xE1rios. \r  \r\n\r\nSe precisar
+    Assunto: Folha de pagamento
+
+    Para:
+    paulo.moreira@gmail.com'
+  content: "Prezado(a) Paulo,\r\n  \r\nEspero que esteja tudo bem com voc\xEA. \r\n 
+    \r\nPor meio deste e-mail, estou enviando a folha de pagamento referente ao m\xEAs
+    de junho de 2024 como anexo. Por favor, verifique o arquivo PDF anexado para
+    revis\xE3o e quaisquer esclarecimentos necess\xE1rios. \r\n  \r\nSe precisar
     de assist\xEAncia adicional ou tiver alguma d\xFAvida sobre os detalhes contidos
-    no documento, sinta-se \xE0 vontade para me contatar. \r  \r\n\r\nAtenciosamente,
-    \r  \r\n\r\n(Nome) \r  \r\n\r\nFolha de Pagamento de Junho de 2024 - Anexo "
+    no documento, sinta-se \xE0 vontade para me contatar. \r\n  \r\nAtenciosamente,
+    \r\n  \r\nFernanda Almeida\r\n  \r\nFolha de Pagamento de Junho de 2024 - Anexo "
   canPass: 1

@@ -15,10 +15,10 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: CodeCrafters Inc.
-  header: "De: Alexandre.oliveira@codecrafters.com\nAssunto: Mensagens n\xE3o lidas"
-  content: "Sauda\xE7\xF5es, (Nome), \r\n  \nParece que h\xE1 alguns e-mails n\xE3o
-    lidos aguardando sua aten\xE7\xE3o. \r\n  \r\nPara garantir que voc\xEA n\xE3o
-    perca nada importante, sugerimos verificar sua caixa de entrada utilizando o
-    filtro de mensagens n\xE3o lidas. \r  \r\n\nEsperamos que isso seja \xFAtil.
-    \r  \r\n\r\nAtenciosamente, \r\n\r\nXXXX. "
+  header: "De: mariana.lima@gmail.com\nAssunto: Mensagens n\xE3o lidas\nPara: patricia.mendes@gmail.com"
+  content: "Sauda\xE7\xF5es, Patr\xEDcia,\r\n  \r\nParece que h\xE1 alguns e-mails
+    n\xE3o lidos aguardando sua aten\xE7\xE3o. \r\n  \r\nPara garantir que voc\xEA
+    n\xE3o perca nada importante, sugerimos verificar sua caixa de entrada utilizando
+    o filtro de mensagens n\xE3o lidas. \r\n  \r\nEsperamos que isso seja \xFAtil.
+    \r\n  \r\nAtenciosamente, \r\n\r\nCode Crafters Inc."
   canPass: 1

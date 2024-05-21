@@ -15,13 +15,16 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: InnovateSoft
-  header: 'De: rodrigo.pereira@innovatesoft.com
+  header: 'De: gustavo.ferreir4@gmail.com
 
-    Assunto: Folha de pagamento'
-  content: "Ol\xE1 [Nome], \r  \r\n\r\nEspero que este e-mail o encontre bem. \r 
-    \r\n\r\nEstou encaminhando a voc\xEA a folha de pagamento referente ao m\xEAs
-    de maio de 2024. Voc\xEA pode acess\xE1-la atrav\xE9s do link a seguir: Link
-    \r  \r\n\r\nCaso tenha alguma d\xFAvida ou necessite de mais informa\xE7\xF5es,
-    por favor, n\xE3o hesite em entrar em contato comigo. \r  \r\n\r\nAtenciosamente,
-    \r\n\r\n(Nome) "
+    Assunto: Folha de pagamento
+
+    Para:
+    juliana.ribeiro@gmail.com'
+  content: "Ol\xE1 Juliana,\r\n  \r\nEspero que este e-mail o encontre bem. \r\n 
+    \r\nEstou encaminhando a voc\xEA a folha de pagamento referente ao m\xEAs de
+    maio de 2024. Voc\xEA pode acess\xE1-la atrav\xE9s do link a seguir: Link \r\n 
+    \r\nCaso tenha alguma d\xFAvida ou necessite de mais informa\xE7\xF5es, por favor,
+    n\xE3o hesite em entrar em contato comigo. \r\n  \r\nAtenciosamente, \r\n\r\nRodrigo
+    Pereira"
   canPass: 0

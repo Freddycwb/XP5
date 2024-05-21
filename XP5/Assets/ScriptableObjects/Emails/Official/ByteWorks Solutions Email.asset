@@ -15,13 +15,15 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: ByteWorks Solutions
-  header: 'De: ricardo.silva@byteworks.com
+  header: 'De: daniel.pedra@hotmail.com
 
-    Assunto: Troca de senha'
-  content: "Sauda\xE7\xF5es, (Nome do Usu\xE1rio), \r\n\r  \r\nObservamos uma modifica\xE7\xE3o
-    em suas credenciais de entrada na plataforma XXXX. \r\n\r  \r\nSe n\xE3o houve
-    uma a\xE7\xE3o de sua parte, pedimos que entre em comunica\xE7\xE3o conosco para
-    assegurar a integridade de sua conta. Consulte nossa se\xE7\xE3o de suporte para
-    orienta\xE7\xF5es adicionais. \r\n  \r\nAtenciosamente, \r\n\r\nEquipe de Suporte
-    XXXX "
+    Assunto: Troca de senha
+
+    Para:
+    luiz.fonseca@hotmail.com'
+  content: "Sauda\xE7\xF5es, Luiz, \r\n  \r\nObservamos uma modifica\xE7\xE3o em
+    suas credenciais.\r\n\r\nSe n\xE3o houve uma a\xE7\xE3o de sua parte, pedimos
+    que entre em comunica\xE7\xE3o conosco para assegurar a integridade de sua conta.
+    Consulte nossa se\xE7\xE3o de suporte para orienta\xE7\xF5es adicionais. \r\n 
+    \r\nAtenciosamente, \r\n\r\nEquipe de Suporte ByteWorks"
   canPass: 0

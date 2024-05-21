@@ -15,15 +15,18 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: DataGuardian Technologies
-  header: 'De: claudia.santos@dataguardian.com
+  header: 'De: claudia.santos@gmail.com
 
-    Assunto: Jantar em equipe'
-  content: "Caro(a) (Nome), \r  \r\n\r\nEsperamos que este e-mail o encontre bem.
+    Assunto: Jantar em equipe
+
+    Para:
+    fabio.martins@hotmail.com'
+  content: "Caro(a) F\xE1bio,\r\n  \r\nEsperamos que este e-mail o encontre bem.
     Gostar\xEDamos de estender a voc\xEA um convite especial para se juntar a n\xF3s
-    em nosso jantar em equipe, marcado para o dia 15/07. \r  \r\n\r\nPara este evento,
+    em nosso jantar em equipe, marcado para o dia 15/07. \r\n  \r\nPara este evento,
     reservamos uma mesa no requintado restaurante \"Villa Gastron\xF4mica\" \xE0s
     20:00. Sua presen\xE7a certamente tornar\xE1 a noite mais agrad\xE1vel e memor\xE1vel
-    para todos n\xF3s. \r  \r\n\r\nPor favor, confirme sua presen\xE7a o mais breve
-    poss\xEDvel. Estamos ansiosos para compartilhar esse momento com voc\xEA. \r 
-    \r\n\r\nAtenciosamente, \r\n\r\n(Equipe da Empresa) "
+    para todos n\xF3s. \r\n  \r\nPor favor, confirme sua presen\xE7a o mais breve
+    poss\xEDvel. Estamos ansiosos para compartilhar esse momento com voc\xEA. \r\n 
+    \r\nAtenciosamente, \r\n\r\nData Guardian Technologies"
   canPass: 1

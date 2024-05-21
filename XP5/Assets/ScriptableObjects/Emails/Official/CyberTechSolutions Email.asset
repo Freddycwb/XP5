@@ -15,14 +15,17 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: 'CyberTech Solutions '
-  header: 'De: marcelo.costa@cybertech.com
+  header: 'De: marcelo.costa12@gmail.com
 
-    Assunto: Treinamentos incompletos'
-  content: "Boa Tarde, (Nome) \r  \r\n\r\nPercebemos que voc\xEA ainda n\xE3o finalizou
+    Assunto: Treinamentos incompletos
+
+    Para:
+    luiz.fonseca@hotmail.com'
+  content: "Boa Tarde, Luiz,\r\n\r\nPercebemos que voc\xEA ainda n\xE3o finalizou
     alguns dos treinamentos dispon\xEDveis na plataforma XXXX. \r\n\r\nPara garantir
     que voc\xEA esteja totalmente atualizado com as normas e procedimentos do seu
     ambiente de trabalho, recomendamos que acesse os Treinamentos aqui. \r\n\r\nLembre-se
     de que \xE9 obrigat\xF3rio concluir essas atividades e a falta delas pode resultar
     em advert\xEAncias ou suspens\xF5es. \r\n\r\nTenha um excelente dia de trabalho,
-    \r\n\r \nXXXX "
+    \r\n\r\nCybertech Solutions"
   canPass: 0

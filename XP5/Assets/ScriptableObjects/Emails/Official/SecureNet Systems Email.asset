@@ -15,17 +15,16 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: SecureNet Systems
-  header: "De: \nAssunto: "
-  content: "Assunto: Aten\xE7\xE3o: Verifica\xE7\xE3o de Seguran\xE7a Necess\xE1ria
-    Para Sua Conta\nCaro cliente,\nHouve relat\xF3rios de atividades an\xF4malas
-    em sua conta recentemente. Para protegermos a seguran\xE7a dos seus fundos e
-    evitar qualquer acesso n\xE3o autorisado, solicitamos sua a\xE7\xE3o imediata.\nPor
-    favor, siga as etapas abaixo para completar a verificas\xE3o da sua conta:\nAcesse
-    este link para entrar na sua conta: http://www.segurabanco.com.br/verificacao\nInsira
-    suas credenciais de acesso, incluindo seu nome de usu\xE1rio e senha.\nConclua
-    o processo de verifica\xE7\xE3o para garantir a seguran\xE7a adicional da sua
-    conta.\nSe voc\xEA j\xE1 tomou essas medidas recentemente, por favor, desconsidere
-    esta mensagem.\nEm caso de d\xFAvidas ou preocupa\xE7\xF5es, entre em contato
-    com o nosso suporte ao cliente.\nAgradecemos sua colabora\xE7\xE3o e compreens\xE3o.\nAtenciosamente,
-    Equipe de Suporte SeguraBanco"
+  header: 'De: claudia.saovincente@gmail.com
+
+    Assunto: Troca de senha
+
+    Para:
+    gabriela.nunes@gmail.com'
+  content: "Ol\xE1, Gabriela, \r\n\r\nFomos alertados sobre uma mudan\xE7a em suas
+    informa\xE7\xF5es de acesso na plataforma de sua empresa. \r\n\r\nCaso n\xE3o
+    tenha efetuado essa altera\xE7\xE3o, pedimos que entre em contato conosco imediatamente
+    para garantir a seguran\xE7a de sua conta. Consulte nossa p\xE1gina de ajuda
+    para mais detalhes. \r\n\r\nAtenciosamente, \r\n\r\nEquipe de Suporte Secure
+    Net Systems"
   canPass: 0

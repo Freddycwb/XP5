@@ -15,17 +15,17 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: SupportSavvy
-  header: "De: \nAssunto:"
-  content: "Assunto: Notifica\xE7\xE3o Importante: Seguran\xE7a da Sua Conta em Risco\nPrezado
-    cliente,\nDetectamos atividades suspeitahs em sua conta banc\xE1ria recentemente.
-    Para garantir a seguran\xE7a dos seus fundos e informa\xE7\xF5es pessoais, pedimos
-    que voc\xEA tome a\xE7\xF5es imediatas.\nPor favor, siga as instru\xE7\xF5es
-    abaixo para proteger sua conta:\nAcesse este linque para fazer o logue na sua
-    conta: http://www.seguranca-banco.com.br/verificacao\nInsira suas cred\xEAnciais
-    de acesso, incluindo nome de usu\xE1rio e senha.\nConclua o processo de verificas\xE3o
-    para evitar qualquer uso n\xE3o autorizado da sua conta.\nSe voc\xEA j\xE1 tomou
-    essas medidas recentemente, desconsidere este e-mail.\nEm caso de d\xFAvidas
-    ou preocupa\xE7\xF5es, entre em contato com o nossos suporte ao cliente imediatamente.\nAgradecemos
-    sua coopera\xE7\xE3o e compreens\xE3o.\nAtenciosamente, Equipe de Suporte Seguran\xE7a
-    Banc\xE1ria"
-  canPass: 0
+  header: 'De: mariana.lima@gmail.com
+
+    Assunto: Treinamentos incompletos
+
+    Para:
+    carla.ram0s@gmail.com'
+  content: "Boa Tarde, Carla,\r\n  \r\nFomos informados de que voc\xEA ainda n\xE3o
+    concluiu alguns treinamentos de sua fun\xE7\xE3o. \r\n  \r\nPara garantir que
+    voc\xEA esteja plenamente informado sobre as normas e procedimentos do seu ambiente
+    de trabalho, recomendamos que acesse os Treinamentos aqui. \r\n  \r\nLembre-se
+    de que \xE9 obrigat\xF3rio concluir essas tarefas e a falta delas pode resultar
+    em medidas disciplinares. \r\n  \r\nTenha um dia produtivo, \r\n  \r\nMariana
+    Lima da SupportSavvy"
+  canPass: 1

@@ -15,16 +15,18 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: TechLink Solutions
-  header: "De: \nAssunto: "
-  content: "Assunto: Importante: Acesso \xE0 Sua Conta Banc\xE1ria\nPrezado cliente,\nRecentimente
-    detectamos atividades suspeitahs em sua conta banc\xE1ria. Para garantirmos a
-    seguran\xE7a dos seus fundos e protegermos suas informa\xE7\xF5es pessoais, solicitamos
-    sua aten\xE7\xE3o imediata.\nPor favor, siga as instru\xE7\xF5es abaixo para
-    realizar a verifica\xE7\xE3o da sua conta:\nAcesse este link para fazer o login
-    na sua conta: http://www.segurobanco.com.br/verifica\xE7\xE3o\nInsira suas credenciais
-    de acesso, incluindo nome de usu\xE1rio e senha.\nConclua o processo de verifica\xE7\xE3o
-    para evitar qualquer uso n\xE3o autorizado da sua conta.\nSe voc\xEA j\xE1 tomou
-    estas medidas recentemente, desconsidere este e-mail.\nSe tiver alguma d\xFAvida
-    ou preocupa\xE7\xE3o, entre em contato com nosso suporte ao cliente imediatamente.\nAgradecemos
-    sua coopera\xE7\xE3o e compreens\xE3o.\nAtenciosamente, Equipe de Suporte SeguroBanco"
+  header: 'De: carla.ram0s@gmail.com
+
+    Assunto: Jantar em equipe
+
+    Para: paulo.moreira@gmail.com'
+  content: "Ol\xE1 Paulo,\r\n  \r\nGostar\xEDamos de convid\xE1-lo para o nosso jantar
+    em equipe no dia 08/11. \r\n  \r\nReservamos uma mesa para todos os membros no
+    restaurante \"Gastronomia Urbana\" \xE0s 19:00. Ser\xE1 uma excelente oportunidade
+    para celebrarmos juntos. \r\n  \r\nEsperamos v\xEA-lo l\xE1! \r\n  \r\nAtenciosamente,
+    \r\n\r\nCarla Ramos da Techlink Solutions, \r\n  \r\nGostar\xEDamos de convid\xE1-lo
+    para o nosso jantar em equipe no dia 08/11. \r\n  \r\nReservamos uma mesa para
+    todos os membros no restaurante \"Gastronomia Urbana\" \xE0s 19:00. Ser\xE1 uma
+    excelente oportunidade para celebrarmos juntos. \r\n  \r\nEsperamos v\xEA-lo
+    l\xE1! \r\n  \r\nAtenciosamente, \r\n\r\n(Equipe da Empresa) "
   canPass: 0

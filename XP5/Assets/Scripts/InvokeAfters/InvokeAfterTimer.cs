@@ -114,7 +114,6 @@ public class InvokeAfterTimer : InvokeAfter
         if (coroutine != null)
         {
             float newTime = 0;
-            Debug.Log(currentTimePass - value);
             if (0 < currentTimePass - value)
             {
                 newTime = currentTimePass - value;

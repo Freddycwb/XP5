@@ -9,11 +9,21 @@ public class EmailManager : MonoBehaviour
     [SerializeField] private Transform parent;
     [SerializeField] private List<EmailVariable> Emails = new List<EmailVariable>();
     private int count;
+    private bool noMoreEmails;
 
     [SerializeField] private GameEventEmail newEmail;
 
     public void CreateEmail()
     {
+        if (noMoreEmails)
+        {
+            return;
+        }
+        if (count >= Emails.Count)
+        {
+            noMoreEmails = true;
+            return;
+        }
         GameObject b = Instantiate(btn, spawnPoint.position, spawnPoint.rotation);
         b.GetComponentInChildren<EmailButton>().SetEmail(Emails[count]);
         b.GetComponentInChildren<EmailInfoToTMP>().SetEmail(Emails[count]);

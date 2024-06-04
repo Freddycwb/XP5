@@ -490,7 +490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2747842774785801843
 RectTransform:
   m_ObjectHideFlags: 0
@@ -594,8 +594,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   instantiateOnSubAction: []
-  timeToAction: 9
-  maxTimeToActionOPTIONAL: 12
+  timeToAction: 0
+  maxTimeToActionOPTIONAL: 0
   timeToActionVariable: {fileID: 0}
   randomTimeToActionVariable: {fileID: 11400000, guid: 0094f165991e5ae45be2000f04c46a44, type: 2}
   valueAdjuster: 0
@@ -978,6 +978,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3733400055311329788, guid: bd57cd0afdf97984a8692929b2fe6ddc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5260118928194356734, guid: bd57cd0afdf97984a8692929b2fe6ddc, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1058,8 +1062,10 @@ PrefabInstance:
       propertyPath: clips.Array.data[0]
       value: 
       objectReference: {fileID: 8300000, guid: 9c2384403bfd2ad4a8911412a9185cb6, type: 3}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedComponents:
+    - {fileID: 5260118928194356734, guid: bd57cd0afdf97984a8692929b2fe6ddc, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 6208947714679943058, guid: bd57cd0afdf97984a8692929b2fe6ddc, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2375852944733619705, guid: bd57cd0afdf97984a8692929b2fe6ddc, type: 3}
       insertIndex: -1

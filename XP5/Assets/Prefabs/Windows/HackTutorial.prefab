@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1012466116383169439, guid: 595c734c97e9ef149bdfc0010510d7c1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2081419795955563243, guid: 595c734c97e9ef149bdfc0010510d7c1, type: 3}
       propertyPath: m_Name
       value: HackTutorial

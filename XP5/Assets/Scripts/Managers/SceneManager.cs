@@ -36,6 +36,16 @@ public class SceneManager : MonoBehaviour
         _coroutine = StartCoroutine(ChangeSceneRoutine(scene));
     }
 
+    public void ChangeScene(StringVariable scene)
+    {
+        if (_coroutine != null)
+        {
+            StopCoroutine(_coroutine);
+        }
+        currentScene.Value = scene.Value;
+        _coroutine = StartCoroutine(ChangeSceneRoutine(scene.Value));
+    }
+
     private IEnumerator ChangeSceneRoutine(string scene)
     {
         if (onStartChangeScene != null)

@@ -13,6 +13,11 @@ public class EmailManager : MonoBehaviour
 
     [SerializeField] private GameEventEmail newEmail;
 
+    public List<EmailVariable> GetEmails()
+    {
+        return Emails;
+    }
+
     public void CreateEmail()
     {
         if (noMoreEmails)

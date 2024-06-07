@@ -145,6 +145,18 @@ public class InvokeAfterCounter : InvokeAfter
         }
     }
 
+    public void SetValueToEmails(EmailManager a)
+    {
+        float lastValue = _currentValue;
+        _maxValue = a.GetEmails().Count;
+        _currentValue = Mathf.Clamp(a.GetEmails().Count, _minValue, _maxValue);
+        SetCurrentValueVariable();
+        if (lastValue != _currentValue)
+        {
+            CallSubAction();
+        }
+    }
+
     public void SetValue(float a)
     {
         float lastValue = _currentValue;

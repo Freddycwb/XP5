@@ -35,6 +35,12 @@ public class Destroyer : MonoBehaviour
         StartCoroutine(DeleteRoutine());
     }
 
+    public void Delete(GameObject value)
+    {
+        obj = value;
+        StartCoroutine(DeleteRoutine());
+    }
+
     private IEnumerator DeleteRoutine()
     {
         yield return new WaitForSeconds(delay);

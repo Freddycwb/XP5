@@ -8,7 +8,7 @@ public struct Email
     public string header;
     public string content;
     public bool canPass;
-    public int wrongAnswerMessage;
+    public string wrongAnswerMessage;
 }
 
 public enum EmailInfos
@@ -27,7 +27,7 @@ public class EmailVariable : Variable<Email>
     [Multiline] public string header;
     [Multiline] public string content;
     public bool canPass;
-    public int wrongAnswerMessage;
+    [Multiline] public string wrongAnswerMessage;
 
     private void OnEnable()
     {

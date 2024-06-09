@@ -55,4 +55,9 @@ public class SceneManager : MonoBehaviour
         yield return new WaitForSeconds(delay);
         UnityEngine.SceneManagement.SceneManager.LoadScene(scene);
     }
+
+    public void CloseGame()
+    {
+        Application.Quit();
+    }
 }

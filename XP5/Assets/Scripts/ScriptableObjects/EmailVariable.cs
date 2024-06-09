@@ -8,6 +8,7 @@ public struct Email
     public string header;
     public string content;
     public bool canPass;
+    public string wrongAnswerMessage;
 }
 
 public enum EmailInfos
@@ -15,7 +16,8 @@ public enum EmailInfos
     name,
     header,
     content,
-    canPass
+    canPass,
+    wrongAnswerMessage
 }
 
 [CreateAssetMenu]
@@ -25,6 +27,7 @@ public class EmailVariable : Variable<Email>
     [Multiline] public string header;
     [Multiline] public string content;
     public bool canPass;
+    [Multiline] public string wrongAnswerMessage;
 
     private void OnEnable()
     {
@@ -32,5 +35,6 @@ public class EmailVariable : Variable<Email>
         Value.header = header;
         Value.content = content;
         Value.canPass = canPass;
+        Value.wrongAnswerMessage = wrongAnswerMessage;
     }
 }

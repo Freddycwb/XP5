@@ -30,3 +30,4 @@ MonoBehaviour:
     poss\xEDvel. Estamos ansiosos para compartilhar esse momento com voc\xEA. \r\n 
     \r\nAtenciosamente, \r\n\r\nData Guardian Technologies"
   canPass: 1
+  wrongAnswerMessage: Erro

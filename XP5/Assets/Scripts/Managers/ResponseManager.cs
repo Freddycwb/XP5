@@ -7,6 +7,8 @@ public class ResponseManager : MonoBehaviour
 {
     private Email _currentEmail;
 
+    [SerializeField] private GameEventString wrongAnswerMessage;
+
     public Action onRightAnswer;
     public Action onWrongAnswer;
 
@@ -29,6 +31,7 @@ public class ResponseManager : MonoBehaviour
             if (onWrongAnswer != null)
             {
                 onWrongAnswer.Invoke();
+                wrongAnswerMessage.Raise(_currentEmail.wrongAnswerMessage);
             }
         }
     }
@@ -47,6 +50,7 @@ public class ResponseManager : MonoBehaviour
             if (onWrongAnswer != null)
             {
                 onWrongAnswer.Invoke();
+                wrongAnswerMessage.Raise(_currentEmail.wrongAnswerMessage);
             }
         }
     }

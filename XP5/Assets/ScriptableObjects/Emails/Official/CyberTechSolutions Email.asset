@@ -29,3 +29,4 @@ MonoBehaviour:
     em advert\xEAncias ou suspens\xF5es. \r\n\r\nTenha um excelente dia de trabalho,
     \r\n\r\nCybertech Solutions"
   canPass: 0
+  wrongAnswerMessage: Erro

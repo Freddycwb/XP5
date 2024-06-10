@@ -30,3 +30,4 @@ MonoBehaviour:
     excelente oportunidade para celebrarmos juntos. \r\n  \r\nEsperamos v\xEA-lo
     l\xE1! \r\n  \r\nAtenciosamente, \r\n\r\n(Equipe da Empresa) "
   canPass: 0
+  wrongAnswerMessage: Erro

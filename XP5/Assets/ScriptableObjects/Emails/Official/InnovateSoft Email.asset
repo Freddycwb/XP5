@@ -28,3 +28,4 @@ MonoBehaviour:
     n\xE3o hesite em entrar em contato comigo. \r\n  \r\nAtenciosamente, \r\n\r\nRodrigo
     Pereira"
   canPass: 0
+  wrongAnswerMessage: Erro

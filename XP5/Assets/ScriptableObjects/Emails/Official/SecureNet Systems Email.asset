@@ -28,3 +28,4 @@ MonoBehaviour:
     para mais detalhes. \r\n\r\nAtenciosamente, \r\n\r\nEquipe de Suporte Secure
     Net Systems"
   canPass: 0
+  wrongAnswerMessage: Erro

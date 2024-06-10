@@ -29,3 +29,4 @@ MonoBehaviour:
     em medidas disciplinares. \r\n  \r\nTenha um dia produtivo, \r\n  \r\nMariana
     Lima da SupportSavvy"
   canPass: 1
+  wrongAnswerMessage: Erro

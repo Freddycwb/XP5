@@ -19,11 +19,11 @@ MonoBehaviour:
 
     Assunto: Troca de senha
 
-    Para:
-    luiz.fonseca@hotmail.com'
+    Para: luiz.fonseca@hotmail.com'
   content: "Sauda\xE7\xF5es, Luiz, \r\n  \r\nObservamos uma modifica\xE7\xE3o em
     suas credenciais.\r\n\r\nSe n\xE3o houve uma a\xE7\xE3o de sua parte, pedimos
     que entre em comunica\xE7\xE3o conosco para assegurar a integridade de sua conta.
     Consulte nossa se\xE7\xE3o de suporte para orienta\xE7\xF5es adicionais. \r\n 
     \r\nAtenciosamente, \r\n\r\nEquipe de Suporte ByteWorks"
   canPass: 0
+  wrongAnswerMessage: Erro

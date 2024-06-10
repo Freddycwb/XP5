@@ -25,3 +25,4 @@ MonoBehaviour:
     tempo e confira mais ofertas em nosso site. \r  \r\n\r\nTenha uma excelente semana,
     \r  \r\n\r\nTechMart \r  \r\n\r\n[www.techmart.com/promo\xE7\xF5es](http://www.techmart.com/promo\xE7\xF5es) "
   canPass: 0
+  wrongAnswerMessage: Erro

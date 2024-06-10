@@ -2869,7 +2869,7 @@ MonoBehaviour:
   clips:
   - {fileID: 8300000, guid: c151016f323314a4799f4d0b3ad6cf8a, type: 3}
   volume: 1
-  volumeVariable: {fileID: 0}
+  volumeVariable: {fileID: 11400000, guid: 42d55b5e55fe7e142bbbec1b581c7dbe, type: 2}
   minMaxPitch: {x: 0.9, y: 1.1}
   loop: 0
   delayToLowVolume: 0
@@ -3280,6 +3280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595f6f47b2d51db49a65913505f95668, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wrongAnswerMessage: {fileID: 11400000, guid: 323f700ee33fa6944b9ccb2d6f133e7c, type: 2}
 --- !u!4 &1667145989
 Transform:
   m_ObjectHideFlags: 0

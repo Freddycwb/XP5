@@ -22,3 +22,4 @@ MonoBehaviour:
     o filtro de mensagens n\xE3o lidas. \r\n  \r\nEsperamos que isso seja \xFAtil.
     \r\n  \r\nAtenciosamente, \r\n\r\nCode Crafters Inc."
   canPass: 1
+  wrongAnswerMessage: Erro

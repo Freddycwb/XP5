@@ -29,3 +29,4 @@ MonoBehaviour:
     no documento, sinta-se \xE0 vontade para me contatar. \r\n  \r\nAtenciosamente,
     \r\n  \r\nFernanda Almeida\r\n  \r\nFolha de Pagamento de Junho de 2024 - Anexo "
   canPass: 1
+  wrongAnswerMessage: Erro

@@ -29,3 +29,4 @@ MonoBehaviour:
     dessas tarefas \xE9 obrigat\xF3ria e a falta delas pode acarretar em medidas
     disciplinares. \r\n  \r\nTenha um dia produtivo, \r\n\r\nTitanTech Enterprises"
   canPass: 1
+  wrongAnswerMessage: Erro

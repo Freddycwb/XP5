@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
-  m_Name: InnovateSoft Email 1
+  m_Name: CodeCrafters Inc. Email 2
   m_EditorClassIdentifier: 
   DeveloperDescription: 
   PersistBetweenScenes: 0
-  name: InnovateSoft
+  name: CodeCrafters Inc
   header: 'De: paulo.moreira@gmail.com
 
     Assunto: Folha de pagamento
@@ -27,6 +27,6 @@ MonoBehaviour:
     revis\xE3o e quaisquer esclarecimentos necess\xE1rios. \r\n  \r\nSe precisar
     de assist\xEAncia adicional ou tiver alguma d\xFAvida sobre os detalhes contidos
     no documento, sinta-se \xE0 vontade para me contatar. \r\n  \r\nAtenciosamente,
-    \r\n  \r\nFernanda Almeida\r\n  \r\nfolhadepagamentodejunhode2024.exe - Anexo"
-  canPass: 1
+    \r\n  \r\nFernanda Almeida\r\n  \r\nfolhadepagamentodejunhode2024.msi - Anexo"
+  canPass: 0
   wrongAnswerMessage: Erro

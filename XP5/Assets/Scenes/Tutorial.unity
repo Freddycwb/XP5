@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -773,7 +773,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tutoras 5
+  m_text: "Se o acesso for conclu\xEDdo, ser\xE1 preciso trocar a m\xE1quina de trabalho,
+    custando tempo de seu dia, al\xE9m de causar problemas para seu chefe.\n\nToque
+    em \"Email\" para continuar."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1fd4c113b15327b408702fdcbfab1d20, type: 2}
   m_sharedMaterial: {fileID: -8995849368709078918, guid: 1fd4c113b15327b408702fdcbfab1d20, type: 2}
@@ -2912,7 +2914,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tutoras 4
+  m_text: "Fique atento para atividades suspeitas em sua m\xE1quina.\n\nSe sua m\xE1quina
+    for invadida, ser\xE1 preciso trocar a m\xE1quina, custando tempo de seu trabalho.\n\nUse
+    o \"Antivirus\" para impedir acessos remotos."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1fd4c113b15327b408702fdcbfab1d20, type: 2}
   m_sharedMaterial: {fileID: -8995849368709078918, guid: 1fd4c113b15327b408702fdcbfab1d20, type: 2}
@@ -7824,7 +7828,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bem vindo ao tutoras
+  m_text: "Bem vindo ao Cyber Wall!\n\nSeu objetivo \xE9 identificar amea\xE7as nos
+    e-mails enviados por membros de sua empresa.\n\nVoc\xEA aprender\xE1 sobre diferentes
+    tipos de ataques cibern\xE9ticos e como eles buscam alvos.\n\nToque no bot\xE3o
+    \"Chat\" na \xE1rea de trabalho para continuar."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1fd4c113b15327b408702fdcbfab1d20, type: 2}
   m_sharedMaterial: {fileID: -8995849368709078918, guid: 1fd4c113b15327b408702fdcbfab1d20, type: 2}
@@ -8282,7 +8289,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tutoras 5
+  m_text: "Voc\xEA receber\xE1 e-mails suspeitos de sua empresa, destinados para
+    outros funcion\xE1rios ou para voc\xEA.\n\nAp\xF3s verificar por atividades suspeitas,
+    envie e-mails seguros para o destin\xE1tario com o bot\xE3o verde. \n\nEnvie
+    e-mails de phishing para o spam geral com o bot\xE3o vermelho."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1fd4c113b15327b408702fdcbfab1d20, type: 2}
   m_sharedMaterial: {fileID: -8995849368709078918, guid: 1fd4c113b15327b408702fdcbfab1d20, type: 2}
@@ -9245,7 +9255,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tutoras 2
+  m_text: "Aqui voc\xEA pode encontrar outros membros da empresa, como seu chefe,
+    notificando sobre suas escolhas ou situa\xE7\xF5es espec\xEDficas.\n\nPode validar
+    informa\xE7\xF5es de cada um com os e-mails que est\xE1 verificando.\n\nFeche
+    a janela \"Chat\" e clique na op\xE7\xE3o \"Notas\" para continuar."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1fd4c113b15327b408702fdcbfab1d20, type: 2}
   m_sharedMaterial: {fileID: -8995849368709078918, guid: 1fd4c113b15327b408702fdcbfab1d20, type: 2}
@@ -10327,7 +10340,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tutoras 3
+  m_text: "Aqui voc\xEA ter\xE1 regras que precisa seguir para aceitar ou recusar
+    os \ne-mails.\n\nRegras podem ser adicionadas e removidas de acordo com as fases.\n\nFeche
+    a janela \"Notas\" para continuar."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1fd4c113b15327b408702fdcbfab1d20, type: 2}
   m_sharedMaterial: {fileID: -8995849368709078918, guid: 1fd4c113b15327b408702fdcbfab1d20, type: 2}
@@ -11558,6 +11573,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 248734601}
     m_Modifications:
+    - target: {fileID: 2116260492445331449, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
+      propertyPath: m_text
+      value: '<br>
+
+        Nenhuma mensagem.
+
+
+        <br>'
+      objectReference: {fileID: 0}
     - target: {fileID: 4322776651800786572, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_Name
       value: Chat
@@ -11580,15 +11604,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6384610830201188465, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6384610830201188465, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6384610830201188465, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 7517731962082334346, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -11676,11 +11700,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7801804550305592778, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7801804550305592778, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.920501
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7801804550305592778, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_AnchorMin.y
@@ -11688,27 +11712,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8159497729819708175, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8159497729819708175, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8159497729819708175, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.6270837
+      value: 0.25416666
       objectReference: {fileID: 0}
     - target: {fileID: 8652877944431196588, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8652877944431196588, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8652877944431196588, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 8717034453265090715, guid: fe43bd94da7feaf45ad2c69ec1a5a611, type: 3}
       propertyPath: action.m_PersistentCalls.m_Calls.Array.size
@@ -11879,6 +11903,10 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0.36666662
       objectReference: {fileID: 0}
+    - target: {fileID: 2202714652627612001, guid: 367002b7b4632f04f8e95b22f57b76f0, type: 3}
+      propertyPath: m_text
+      value: Nenhuma regra adicionada.
+      objectReference: {fileID: 0}
     - target: {fileID: 4359212951664089888, guid: 367002b7b4632f04f8e95b22f57b76f0, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -11890,6 +11918,10 @@ PrefabInstance:
     - target: {fileID: 4735698957853601963, guid: 367002b7b4632f04f8e95b22f57b76f0, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5052218171908502679, guid: 367002b7b4632f04f8e95b22f57b76f0, type: 3}
+      propertyPath: m_text
+      value: Nenhuma regra adicionada.
       objectReference: {fileID: 0}
     - target: {fileID: 8620685403414248725, guid: 367002b7b4632f04f8e95b22f57b76f0, type: 3}
       propertyPath: m_AnchorMax.x

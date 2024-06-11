@@ -15,11 +15,12 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: TechLink Solutions
-  header: 'De: carla.ram0s@gmail.com
+  header: 'De: paulo.moreira@gmail.com
 
     Assunto: Jantar em equipe
 
-    Para: paulo.moreira@gmail.com'
+    Para:
+    carla.ram0s@gmail.compaulo.moreira@gmail.com'
   content: "Ol\xE1 Paulo,\r\n  \r\nGostar\xEDamos de convid\xE1-lo para o nosso jantar
     em equipe no dia 08/11. \r\n  \r\nReservamos uma mesa para todos os membros no
     restaurante \"Gastronomia Urbana\" \xE0s 19:00. Ser\xE1 uma excelente oportunidade
@@ -29,5 +30,5 @@ MonoBehaviour:
     todos os membros no restaurante \"Gastronomia Urbana\" \xE0s 19:00. Ser\xE1 uma
     excelente oportunidade para celebrarmos juntos. \r\n  \r\nEsperamos v\xEA-lo
     l\xE1! \r\n  \r\nAtenciosamente, \r\n\r\n(Equipe da Empresa) "
-  canPass: 0
+  canPass: 1
   wrongAnswerMessage: Erro

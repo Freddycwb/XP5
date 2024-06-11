@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4008,18 +4008,18 @@ MonoBehaviour:
   spawnPoint: {fileID: 214577148}
   parent: {fileID: 214577148}
   Emails:
+  - {fileID: 11400000, guid: 32cbc1252648943459b781467ee9f20b, type: 2}
   - {fileID: 11400000, guid: e7278547cb36f204a9d64818ec6b8246, type: 2}
+  - {fileID: 11400000, guid: 9e0b7b8cc9668a241a6c771e5bd68f2c, type: 2}
   - {fileID: 11400000, guid: aa33f38acb4aae140b464fc941ee9148, type: 2}
-  - {fileID: 11400000, guid: 25ef9cbf606159f49abfdbb209a4c93b, type: 2}
+  - {fileID: 11400000, guid: 7bc6d61574da2dd4e8fa76873dc9a568, type: 2}
   - {fileID: 11400000, guid: 19c2c5fdbbea4e74981f860d8bfee5d8, type: 2}
-  - {fileID: 11400000, guid: 77c72fa6465d7054ba65b9d9b00c9381, type: 2}
-  - {fileID: 11400000, guid: f83d5d94b98d4b9429d4c095d3958e7a, type: 2}
   - {fileID: 11400000, guid: 0ccb741f883df564080b139b0a0a417b, type: 2}
   - {fileID: 11400000, guid: 5c18447a19a26ab41b0ef157d610a559, type: 2}
-  - {fileID: 11400000, guid: 7bc6d61574da2dd4e8fa76873dc9a568, type: 2}
-  - {fileID: 11400000, guid: e7278547cb36f204a9d64818ec6b8246, type: 2}
+  - {fileID: 11400000, guid: 728885c76fe0fca43baf4b28dccd7b28, type: 2}
   - {fileID: 11400000, guid: f83d5d94b98d4b9429d4c095d3958e7a, type: 2}
-  - {fileID: 11400000, guid: aa33f38acb4aae140b464fc941ee9148, type: 2}
+  - {fileID: 11400000, guid: 77c72fa6465d7054ba65b9d9b00c9381, type: 2}
+  - {fileID: 11400000, guid: 25ef9cbf606159f49abfdbb209a4c93b, type: 2}
   - {fileID: 11400000, guid: 5c18447a19a26ab41b0ef157d610a559, type: 2}
   - {fileID: 11400000, guid: 7bc6d61574da2dd4e8fa76873dc9a568, type: 2}
   - {fileID: 11400000, guid: 0ccb741f883df564080b139b0a0a417b, type: 2}
@@ -4033,10 +4033,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: aa33f38acb4aae140b464fc941ee9148, type: 2}
   - {fileID: 11400000, guid: e7278547cb36f204a9d64818ec6b8246, type: 2}
   - {fileID: 11400000, guid: aa33f38acb4aae140b464fc941ee9148, type: 2}
-  - {fileID: 11400000, guid: 7bc6d61574da2dd4e8fa76873dc9a568, type: 2}
-  - {fileID: 11400000, guid: aa33f38acb4aae140b464fc941ee9148, type: 2}
-  - {fileID: 11400000, guid: aa33f38acb4aae140b464fc941ee9148, type: 2}
-  - {fileID: 11400000, guid: aa33f38acb4aae140b464fc941ee9148, type: 2}
+  - {fileID: 11400000, guid: 728885c76fe0fca43baf4b28dccd7b28, type: 2}
+  - {fileID: 11400000, guid: 25ef9cbf606159f49abfdbb209a4c93b, type: 2}
+  - {fileID: 11400000, guid: 9e0b7b8cc9668a241a6c771e5bd68f2c, type: 2}
+  - {fileID: 11400000, guid: 5c18447a19a26ab41b0ef157d610a559, type: 2}
   - {fileID: 11400000, guid: aa33f38acb4aae140b464fc941ee9148, type: 2}
   newEmail: {fileID: 11400000, guid: e77829324d98f5c49a4cac457522fc12, type: 2}
 --- !u!1 &1940687401
@@ -4254,6 +4254,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 606735155251386804, guid: 617c49294a959ee4a9598d97da6e3138, type: 3}
+      propertyPath: m_text
+      value: "Verifique os nomes da empresa.\n\nVerifique o e-mail do remetente.\n\nN\xE3o
+        aceite e-mails de propaganda no-reply\n\nVerifique links nos e-mails.\n\nArquivos
+        anexados deve estar em formatos de pdf."
+      objectReference: {fileID: 0}
     - target: {fileID: 1018932364477379629, guid: 617c49294a959ee4a9598d97da6e3138, type: 3}
       propertyPath: m_Camera
       value: 
@@ -4334,6 +4340,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5829635450591747138, guid: 617c49294a959ee4a9598d97da6e3138, type: 3}
+      propertyPath: m_text
+      value: "Verifique os nomes da empresa.\n\nVerifique o e-mail do remetente.\n\nN\xE3o
+        aceite e-mails de propaganda no-reply\n\nVerifique links nos e-mails.\n\nArquivos
+        anexados deve estar em formatos de pdf."
+      objectReference: {fileID: 0}
     - target: {fileID: 5837156493296690340, guid: 617c49294a959ee4a9598d97da6e3138, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4346,6 +4358,15 @@ PrefabInstance:
       propertyPath: timer
       value: 
       objectReference: {fileID: 997910872}
+    - target: {fileID: 8620557252962942417, guid: 617c49294a959ee4a9598d97da6e3138, type: 3}
+      propertyPath: m_text
+      value: "Ol\xE1 funcion\xE1rio.\n\nPrimeiramente, bem vindo a empresa.\n\nPreciso
+        que verifique alguns e-mails de nossa equipe, tome cuidado por qualquer conte\xFAdo
+        suspeito, e verifique as suas notas para saber o que est\xE1 procurando.\n\nEstamos
+        tendo alguns casos de tentativas de acesso em nossa rede, ent\xE3o fique
+        de olho em qualquer coisa estranha em sua m\xE1quina, sen\xE3o vamos precisar
+        isol\xE1-la.\n\nEspero que tenha um bom dia de trabalho."
+      objectReference: {fileID: 0}
     - target: {fileID: 8703273281442930272, guid: 617c49294a959ee4a9598d97da6e3138, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 5.5000153

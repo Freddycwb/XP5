@@ -10,22 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a52e12c58b09ba4fa11ef1e05032d61, type: 3}
-  m_Name: InnovateSoft Email
+  m_Name: SecureNet Systems Email 2
   m_EditorClassIdentifier: 
   DeveloperDescription: 
   PersistBetweenScenes: 0
-  name: InnovateSoft
+  name: SecureNet Systems
   header: 'De: juliana.ribeiro@gmail.com
 
     Assunto: Folha de pagamento
 
     Para:
-    gustavo.ferreir4@gmail.com'
-  content: "Ol\xE1 Juliana,\r\n  \r\nEspero que este e-mail o encontre bem. \r\n 
-    \r\nEstou encaminhando a voc\xEA a folha de pagamento referente ao m\xEAs de
-    maio de 2024. Voc\xEA pode acess\xE1-la atrav\xE9s do link a seguir: www.innovatesoft.com.br/folhadepagamento\r\n 
+    fernanda.almeida@gmail.com'
+  content: "Ol\xE1 Juliana, \r\n\nEspero que este e-mail o encontre bem. \r\n  \nEstou
+    encaminhando a voc\xEA a folha de pagamento referente ao m\xEAs de julho de 2024.
+    Voc\xEA pode acess\xE1-la atrav\xE9s do link a seguir: www.securenetsistemas.com.br\t\r\n 
     \r\nCaso tenha alguma d\xFAvida ou necessite de mais informa\xE7\xF5es, por favor,
-    n\xE3o hesite em entrar em contato comigo. \r\n  \r\nAtenciosamente, \r\n\r\nRodrigo
-    Pereira"
+    n\xE3o hesite em entrar em contato comigo. \r  \r\n\r\nAtenciosamente, \r\n\r\nInnovateSoft"
   canPass: 1
   wrongAnswerMessage: Erro

@@ -15,12 +15,12 @@ MonoBehaviour:
   DeveloperDescription: 
   PersistBetweenScenes: 0
   name: 'CyberTech Solutions '
-  header: 'De: marcelo.costa12@gmail.com
+  header: 'De: luiz.fonseca@hotmail.com
 
     Assunto: Treinamentos incompletos
 
     Para:
-    luiz.fonseca@hotmail.com'
+    marcelo.costa21@gmail.com'
   content: "Boa Tarde, Luiz,\r\n\r\nPercebemos que voc\xEA ainda n\xE3o finalizou
     alguns dos treinamentos dispon\xEDveis na plataforma XXXX. \r\n\r\nPara garantir
     que voc\xEA esteja totalmente atualizado com as normas e procedimentos do seu
@@ -28,5 +28,5 @@ MonoBehaviour:
     de que \xE9 obrigat\xF3rio concluir essas atividades e a falta delas pode resultar
     em advert\xEAncias ou suspens\xF5es. \r\n\r\nTenha um excelente dia de trabalho,
     \r\n\r\nCybertech Solutions"
-  canPass: 0
+  canPass: 1
   wrongAnswerMessage: Erro
